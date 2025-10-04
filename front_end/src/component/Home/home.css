@@ -1,0 +1,53 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #f0f2f5;
+}
+
+h1 {
+  color: #333;
+}
+
+.login-sections {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.login-card {
+  width: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  background: #fff;
+}
+
+.admin-section {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+}
+
+.user-section {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-sections {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
